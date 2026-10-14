@@ -1,0 +1,43 @@
+---
+title: "Practical 1 Part 3 and 4"
+author: "Fae Rouse"
+---
+```{r}
+library(tidyverse)
+library(gt)
+```
+
+```{r}
+round(3.14159, digits = 2)
+```
+
+```{r}
+print(rep(6, 7))
+print(rep(times = 7, x=6))
+logical <- TRUE
+character <- "oqqwqw"
+numeric <- 67
+print(paste(class(logical), class(character), class(numeric)))
+cell_ID1 <- "CX1"
+cell_ID2 <- "CX2"
+treated1 <- TRUE
+treated2 <- FALSE
+num_cells_before1 <- 5415
+num_cells_after1 <- 1432
+num_cells_before2 <- 8123
+num_cells_after2 <- 7543
+
+cell_ID <- c(cell_ID1, cell_ID2)
+treated <- c(treated1, treated2)
+num_cells_before <- c(num_cells_before1, num_cells_before2)
+num_cells_after <- c(num_cells_after1, num_cells_after2)
+
+all_my_pets <- c("dog", "horse", "guinea pig", "chicken", "cat")
+actually_my_pet <- all_my_pets[4]
+print(actually_my_pet)
+
+my_data_frame <- tibble(
+  
+)
+```
+

@@ -1,0 +1,23 @@
+---
+title: "Brain Data"
+author: "Fae Rouse"
+---
+
+I am calculating the number of elevated genes in the **forebrain** of a *Human, pig,* and *mouse*.
+
+Human:
+```{r}
+sum(180, 83, 57, 110)
+```
+
+Pig:
+```{r}
+sum(109, 157, 31, 45)
+```
+
+Mouse:
+```{r}
+sum(55, 185, 60, 98)
+```
+
+Humans had the highest number of genes regionally elevated in the forebrain.

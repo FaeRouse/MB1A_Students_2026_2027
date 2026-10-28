@@ -27,17 +27,21 @@ num_cells_after1 <- 1432
 num_cells_before2 <- 8123
 num_cells_after2 <- 7543
 
-cell_ID <- c(cell_ID1, cell_ID2)
-treated <- c(treated1, treated2)
-num_cells_before <- c(num_cells_before1, num_cells_before2)
-num_cells_after <- c(num_cells_after1, num_cells_after2)
+cell_IDs <- c(cell_ID1, cell_ID2)
+treateds <- c(treated1, treated2)
+num_cells_befores <- c(num_cells_before1, num_cells_before2)
+num_cells_afters <- c(num_cells_after1, num_cells_after2)
 
 all_my_pets <- c("dog", "horse", "guinea pig", "chicken", "cat")
 actually_my_pet <- all_my_pets[4]
 print(actually_my_pet)
 
 my_data_frame <- tibble(
-  
+  cell_ID = cell_IDs,
+  treated = treateds,
+  num_cells_before = num_cells_befores,
+  num_cells_after = num_cells_afters
 )
+gt(my_data_frame)
 ```
 
